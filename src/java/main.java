@@ -1,6 +1,8 @@
 package java;
 
-public class Main {
+import java.util.Scanner;
+
+public class main {
     public void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int unEntier = scanner.nextInt();
