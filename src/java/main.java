@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class main {
     public void main(String[] args) {
+        System.out.println("Bonjour, quel est votre prénom ?");
         Scanner scanner = new Scanner(System.in);
-        int unEntier = scanner.nextInt();
-        float unReel = scanner.nextFloat();
-        System.out.println("J’ai recupere un entier: " + unEntier);
-        System.out.println("J’ai aussi recupere un reel: " + unReel);
+        String prenom = scanner.nextLine();
+        System.out.println("Bonjour, " + prenom);
     }
 }
+
