@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff48ba4a-41df-4476-aa5b-149ca07eb3ed" name="Changes" comment="TP&#10;somme">
+    <list default="true" id="ff48ba4a-41df-4476-aa5b-149ca07eb3ed" name="Changes" comment="TP&#10;division">
       <change beforePath="$PROJECT_DIR$/src/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676846450970</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="TP&#10;division">
+      <created>1676846845329</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676846845329</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +206,7 @@
     <MESSAGE value="branche dev" />
     <MESSAGE value="TP" />
     <MESSAGE value="TP&#10;somme" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP&#10;somme" />
+    <MESSAGE value="TP&#10;division" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP&#10;division" />
   </component>
 </project>
