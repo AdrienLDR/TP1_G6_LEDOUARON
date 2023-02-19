@@ -1,13 +1,19 @@
-package java;
 
 import java.util.Scanner;
 
 public class main {
-    public void main(String[] args) {
-        System.out.println("Bonjour, quel est votre prénom ?");
+    public static void main(String[] args) {
+        somme();
+    }
+
+    public static void somme() {
         Scanner scanner = new Scanner(System.in);
-        String prenom = scanner.nextLine();
-        System.out.println("Bonjour, " + prenom);
+        System.out.println("Veuillez saisir le premier entier");
+        int premierEntier = scanner.nextInt();
+        System.out.println("Veuillez saisir le deuxième entier");
+        int deuxiemeEntier = scanner.nextInt();
+        int somme = premierEntier + deuxiemeEntier;
+        System.out.println("La somme de " + premierEntier + " avec " + deuxiemeEntier + " est égale à " + somme);
     }
 }
 
