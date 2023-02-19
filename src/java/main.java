@@ -2,18 +2,27 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
-        parite();
+        maxmin();
     }
-        public static void parite() {
+        public static void maxmin() {
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Veuillez saisir un entier :");
-            int nombre = scanner.nextInt();
+            int a, b;
 
-            if (nombre % 2 == 0) {
-                System.out.println(nombre + " est pair.");
-            } else {
-                System.out.println(nombre + " est impair.");
-            }
+            // Maximum entre deux entiers
+            System.out.println("Entrez deux entiers :");
+            a = scanner.nextInt();
+            b = scanner.nextInt();
+            int max = (a > b) ? a : b;
+            System.out.println("Le maximum est : " + max);
+
+            // Minimum entre deux entiers
+            System.out.println("Entrez deux entiers :");
+            a = scanner.nextInt();
+            b = scanner.nextInt();
+            int min = (a < b) ? a : b;
+            System.out.println("Le minimum est : " + min);
+
+            scanner.close();
         }
 
 }
