@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff48ba4a-41df-4476-aa5b-149ca07eb3ed" name="Changes" comment="TP&#10;division">
-      <change beforePath="$PROJECT_DIR$/src/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff48ba4a-41df-4476-aa5b-149ca07eb3ed" name="Changes" comment="TP2&#10;discriminant" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676846845329</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="TP&#10;Pave droit">
+      <created>1676847267619</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676847267619</updated>
+    </task>
+    <task id="LOCAL-00012" summary="TP2&#10;discriminant">
+      <created>1676847529734</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676847529734</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +219,8 @@
     <MESSAGE value="TP" />
     <MESSAGE value="TP&#10;somme" />
     <MESSAGE value="TP&#10;division" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP&#10;division" />
+    <MESSAGE value="TP&#10;Pave droit" />
+    <MESSAGE value="TP2&#10;discriminant" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP2&#10;discriminant" />
   </component>
 </project>
