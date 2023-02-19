@@ -2,27 +2,21 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
-        maxmin();
+        egalitéChaine();
     }
-        public static void maxmin() {
-            Scanner scanner = new Scanner(System.in);
-            int a, b;
+        public static void egalitéChaine() {
+            Scanner input = new Scanner(System.in);
+            System.out.print("Entrez la première chaîne : ");
+            String chaine1 = input.nextLine();
+            System.out.print("Entrez la deuxième chaîne : ");
+            String chaine2 = input.nextLine();
 
-            // Maximum entre deux entiers
-            System.out.println("Entrez deux entiers :");
-            a = scanner.nextInt();
-            b = scanner.nextInt();
-            int max = (a > b) ? a : b;
-            System.out.println("Le maximum est : " + max);
-
-            // Minimum entre deux entiers
-            System.out.println("Entrez deux entiers :");
-            a = scanner.nextInt();
-            b = scanner.nextInt();
-            int min = (a < b) ? a : b;
-            System.out.println("Le minimum est : " + min);
-
-            scanner.close();
+            boolean egalite = chaine1.equals(chaine2);
+            if (egalite) {
+                System.out.println("Les deux chaînes sont égales.");
+            } else {
+                System.out.println("Les deux chaînes ne sont pas égales.");
+            }
         }
 
 }
